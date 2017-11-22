@@ -1,3 +1,239 @@
-/*
- * Estilos de tu proyecto
- */
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+ [type="tel"]{
+  font-weight: 400px;      /*Características para los nombres de las cajas del formulario*/
+  font-size: 14px;
+  color: #728099;
+  text-align: left;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #352384;
+  font: "Montserrat", sans-serif;
+}
+
+.box_btn{
+  border: 2px solid white;
+  float: right;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 0px 10px;
+}
+
+.box_btn a{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding-left: 30px;
+
+}
+.first_part{
+  float:left;
+  padding-left: 10%;
+}
+
+.first_part img{
+  width: 64px;
+  height: 48px;
+}
+nav{
+padding-top: 20px;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  background-image: linear-gradient(180deg,rgba(51,52,71,.7),rgba(51,52,71,0));
+}
+
+.second_part{
+  float: right;
+  padding-right: 60px;
+}
+
+.second_part div{
+  display: inline-block;
+  padding-right: 30px;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}
+
+label{
+  opacity: 0;
+  z-index: -1;
+}
+
+.btn1 {
+  margin-top: 10px;
+  background-color: #FF00BF;
+  border: 5px solid #FF00BF;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+}
+.first_sec {
+  width: 100%;
+  height: 500px;
+  background-image: url('../assets/images/hero.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0px;
+}
+
+a.sign{
+  color:#728099;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.form_contact h2{
+  display: block;
+  width: 250px;
+  font-size: 30px;
+  font-weight: 700px;
+  color:#352384;
+  margin-bottom: 0px;
+}
+
+.form_contact h3{
+  font-size: 10px;
+  font-weight: 400px;
+  color:#352384;
+  margin-bottom: 0px;
+}
+
+.form_contact{
+  float: right;
+  background-color: white;
+  padding: 20px 50px 20px;
+  display: inline-block;
+  width: 30%;
+  height: 50%;
+  margin-top: 100px;
+}
+.icons_media i{              /*Ingresando la circunferencia de borde*/
+  display: inline-block;
+  border-radius: 20px;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+}
+
+.upper_case{                        /*Clase para convertir a mayúsculas*/
+  text-transform: uppercase;
+}
+
+.first_sec p{
+  color: #728099;
+  font-size: 8px;
+}
+
+.first_sec p a:hover{
+  text-decoration: none;
+  color: #FF00BF;
+}
+
+.second_sec{
+  background-image: linear-gradient(180deg, #76278F, #2B1E66);
+  padding: 5px 0px 100px;
+}
+
+.second_sec img{
+  float: right;
+  width: 30%;
+  height: 50%;
+  padding: 90px 200px 0px 0px;
+
+}
+
+.info_sec1,.info_sec2,.info_sec3{
+  padding-left: 60px;
+  padding-top: 20px;
+  color: white;
+  display: block;
+}
+
+.info_sec1{
+  padding-top: 60px;
+}
+
+.info_sec1,.info_sec2,.info_sec3 p{
+  display: block;
+  margin: 0px;
+}
+
+.third_sec iframe{
+  float:right;
+}
+
+.fourth_sec iframe{
+  float:left;
+}
+
+.fifth_sec iframe{
+  float:right;
+}
+.third_sec .text_sec3,.text_sec5{
+  float: left;
+  vertical-align: top;
+  display: block;
+  width:30%;
+  padding-bottom: 150px;
+}
+
+.third_sec .text_sec4{
+  float: right;
+  vertical-align: top;
+  display: block;
+  width:30%;
+  padding-bottom: 150px;
+}
+
+.third_sec h3,.fourth_sec h3,.fifth_sec h3{
+  padding: 10px 0px 0px 60px;
+  margin: 0px;
+  font-size: 10px;
+}
+
+.third_sec h2, .fourth_sec h2, .fifth_sec h2{
+  padding-left: 60px;
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+.third_sec p, .fourth_sec p, .fifth_sec p{
+  padding-left: 60px;
+  margin-top: 0px;
+  font-size: 16px;
+  font-weight: 400px;
+}
+
+.third_sec,.fourth_sec,.fifth_sec{
+  display: inline-block;
+}
+
+.icons_stores img{
+  width: 100px;
+  height: 30px;
+}
+
+.part1,.part2,.part3,.icons_stores{
+  display: inline-block;
+  text-align: center;
+}
+
+.icons_media div{
+  display: inline-block;
+  text-align: center;
+}
+
+.copyright div{
+  text-align: center;
+}
