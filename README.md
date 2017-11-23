@@ -5,7 +5,7 @@
 2. Carpeta CSS incluye el archivo main.css con todos los estilos, tipografías, colores y demás elementos que permiten brindarle una estructura visual al archivo html.
 3. Dentro de la carpeta ASSETS se encuentra la carpeta IMAGES donde se localizan todas las imágenes utilizadas en el código de la página.
 
-### Página lyfD. Descripción del código
+### Página lyf. Descripción del código
 
 Se encuentra segmentado en tres partes, la primera el header donde encontraremos la barra de navegación principal con el logotipo y el enlace a otras páginas como el acceso a la cuenta de la aplicación.
 

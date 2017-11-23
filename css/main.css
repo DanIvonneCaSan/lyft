@@ -28,6 +28,7 @@ body{
   display: inline-block;
   text-decoration: none;
   color: white;
+  font-weight: 400px;
   text-align: center;
   padding-left: 30px;
 
@@ -38,7 +39,7 @@ body{
 }
 
 .first_part img{
-  width: 64px;
+  width: 70px;
   height: 48px;
 }
 nav{
@@ -69,8 +70,13 @@ label{
   z-index: -1;
 }
 
+.first_sec a{
+  text-decoration: none;
+  color: #FF00BF;
+}
 .btn1 {
-  margin-top: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   background-color: #FF00BF;
   border: 5px solid #FF00BF;
   border-radius: 5px;
@@ -79,7 +85,7 @@ label{
 }
 .first_sec {
   width: 100%;
-  height: 500px;
+  height: 454px;
   background-image: url('../assets/images/hero.gif');
   background-position: center;
   background-repeat: no-repeat;
@@ -112,16 +118,16 @@ a.sign{
 .form_contact{
   float: right;
   background-color: white;
-  padding: 20px 50px 20px;
+  padding: 35px 50px 110px;
   display: inline-block;
   width: 30%;
   height: 50%;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 .icons_media i{              /*Ingresando la circunferencia de borde*/
   display: inline-block;
   border-radius: 20px;
-  border: 1px solid black;
+  border: 1px solid white;
   width: 40px;
   height: 40px;
 }
@@ -142,7 +148,7 @@ a.sign{
 
 .second_sec{
   background-image: linear-gradient(180deg, #76278F, #2B1E66);
-  padding: 5px 0px 100px;
+  padding: 5px 0px 80px;
 }
 
 .second_sec img{
@@ -180,41 +186,63 @@ a.sign{
 .fifth_sec iframe{
   float:right;
 }
-.third_sec .text_sec3,.text_sec5{
+.third_sec .text_sec3, .fifth_sec .text_sec5{
   float: left;
   vertical-align: top;
   display: block;
   width:30%;
-  padding-bottom: 150px;
+  padding-bottom: 115px;
 }
 
-.third_sec .text_sec4{
+.fifth_sec{
+  width: 100%;
+}
+.fourth_sec .text_sec4 {
   float: right;
   vertical-align: top;
   display: block;
   width:30%;
-  padding-bottom: 150px;
+  padding:0 20px 150px;
 }
 
-.third_sec h3,.fourth_sec h3,.fifth_sec h3{
-  padding: 10px 0px 0px 60px;
+.third_sec h3,.fifth_sec h3{
+  padding: 20px 0px 0px 60px;
   margin: 0px;
   font-size: 10px;
 }
 
-.third_sec h2, .fourth_sec h2, .fifth_sec h2{
+.fourth_sec h3{
+  padding: 20px 0px 0px 10px;
+  margin: 0px;
+  font-size: 10px;
+}
+
+.third_sec h2, .fifth_sec h2{
   padding-left: 60px;
   margin-top: 0px;
   font-size: 20px;
 }
 
-.third_sec p, .fourth_sec p, .fifth_sec p{
+.fourth_sec h2{
+  padding-left: 10px;
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+.third_sec p, .fifth_sec p{
   padding-left: 60px;
   margin-top: 0px;
   font-size: 16px;
   font-weight: 400px;
 }
 
+.fourth_sec p{
+  padding-left: 10px;
+  padding-right: 20px;
+  margin-top: 0px;
+  font-size: 16px;
+  font-weight: 400px;
+}
 .third_sec,.fourth_sec,.fifth_sec{
   display: inline-block;
 }
@@ -226,14 +254,101 @@ a.sign{
 
 .part1,.part2,.part3,.icons_stores{
   display: inline-block;
-  text-align: center;
+
+}
+
+.part1,.part2,.part3{
+  padding-left: 20px;
+
+}
+
+.part3{
+  padding-right: 40px;
+}
+.part1 h3,.part2 h3,.part3 h3{
+
+  text-align: left;
+  padding-left: 40px;
 }
 
 .icons_media div{
   display: inline-block;
   text-align: center;
+  float: right;
+}
+
+.icons_media{
+  display: inline-block;
+  padding-left: 35%;
+}
+
+
+.icons_media div{
+  padding-left: 60px;
+  padding-top: 30px;
 }
 
 .copyright div{
   text-align: center;
+}
+
+footer{
+  background-color: #333447;
+  color: white;
+}
+
+.footer_menu{
+
+  padding-left: 150px;
+}
+
+nav li a{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  text-align: left;
+  padding: 20px 30px 10px 0px;
+  font-size: 14px;
+}
+
+nav li{
+  list-style-type: none;
+}
+nav li a:hover{
+ color: #FF00BF;
+ text-decoration: underline;
+}
+
+.icons_stores{
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 40px;
+}
+
+.icons_stores img{
+  padding:40px 20px 0px 130px;
+}
+
+.fa-facebook:before,.fa-twitter:before,.fa-instagram:before{
+  position: relative;
+  top: 10px;
+}
+
+.copyright div p{           /*Alineando texto de Copyright*/
+  font-size: 10px;
+  font-weight: 400px;
+  text-align: center;
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-bottom: 30px;
+}
+
+.copyright{
+    padding-top: 30px;
+}
+
+hr{
+  display:block;
+  width:25%;
+  padding-left: 20%;
 }
